@@ -16,6 +16,12 @@ public class Main {
     */
 
     public static int obtenerSuma(int n) {
+
+        if(n < 0)
+        {
+            throw new IllegalArgumentException("El numero debe no debe ser negativo.");
+        }
+
         int suma = 0;
         for (int i = 1; i <= n; i++) {
             suma += i;
