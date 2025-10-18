@@ -18,4 +18,12 @@ class MainTest {
         assertEquals(VALOR_ESP, resultado);
 
     }
+
+    public static int obtenerFactorial(int n) {
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        return factorial;
+    }
 }
