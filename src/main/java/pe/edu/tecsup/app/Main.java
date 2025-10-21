@@ -22,7 +22,7 @@ public class Main {
             throw new IllegalArgumentException("El numero debe no debe ser negativo.");
         }
 
-        int suma = 0;
+        int suma = 0; //cambio desde el clon
         for (int i = 1; i <= n; i++) {
             suma += i;
         }
