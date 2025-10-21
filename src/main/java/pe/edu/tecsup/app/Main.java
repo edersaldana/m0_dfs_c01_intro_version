@@ -16,7 +16,7 @@ public class Main {
     */
 
     public static int obtenerSuma(int n) {
-        int suma = 0;
+        int suma = 5;
         for (int i = 1; i <= n; i++) {
             suma += i;
         }
