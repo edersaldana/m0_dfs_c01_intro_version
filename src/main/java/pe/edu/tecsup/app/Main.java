@@ -20,6 +20,7 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             suma += i;
         }
+        System.out.println(suma);
         return suma;
     }
 }
